@@ -224,6 +224,8 @@ p {
 @media (max-width: 1250px) {
     body {
         background-color: #0077ef;
+        margin: 0;
+        padding: 0;
     }
 
     h1 {
@@ -293,11 +295,31 @@ p {
         text-align: center;
         text-align: center;
     }
+
+    #footer {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: #fff;
+        font-size: 17px;
+        background-color: #3a3a3a;
+        padding: 15px;
+        flex-shrink: 0;
+        margin-top: auto;
+        margin-top: 20px;
+        /* Tambahkan jarak pada elemen di atas footer */
+    }
+
+    #footer a {
+        text-decoration: none;
+        color: aqua;
+    }
 }
 
 @media (max-width: 767px) {
     body {
         background-color: #0077ef;
+        margin: 0;
+        padding: 0;
     }
 
     h1 {
@@ -369,9 +391,32 @@ p {
         text-align: center;
     }
 
+    #footer {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: #fff;
+        font-size: 17px;
+        background-color: #3a3a3a;
+        padding: 15px;
+        flex-shrink: 0;
+        margin-top: auto;
+        margin-top: 20px;
+        /* Tambahkan jarak pada elemen di atas footer */
+    }
+
+    #footer a {
+        text-decoration: none;
+        color: aqua;
+    }
+
 }
 
 @media (max-width: 480px) {
+    body {
+        background-color: #0077ef;
+        margin: 0;
+        padding: 0;
+    }
 
     .YOUTUBE,
     .FACEBOOK,
@@ -384,6 +429,28 @@ p {
         width: 41%;
         height: auto;
         font-size: 1em;
+    }
+
+    .container {
+        margin-bottom: 10%;
+    }
+
+    #footer {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: #fff;
+        font-size: 17px;
+        background-color: #3a3a3a;
+        padding: 15px;
+        flex-shrink: 0;
+        margin-top: auto;
+        margin-top: 20px;
+        /* Tambahkan jarak pada elemen di atas footer */
+    }
+
+    #footer a {
+        text-decoration: none;
+        color: aqua;
     }
 }
 
