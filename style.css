@@ -5,7 +5,11 @@
 }
 
 body {
-    background-color: rgb(252, 252, 252)
+    background-color: #0077ef;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 }
 
 header {
@@ -15,7 +19,7 @@ header {
     text-align: center;
     background-color: aqua;
     padding: 15px 0;
-    box-shadow: 0 0 10px 2px #414141;
+    box-shadow: 0 0 15px 2px #161616;
 }
 
 #content {
@@ -28,6 +32,7 @@ h1 {
 }
 
 .text p {
+    color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 15px;
@@ -36,14 +41,14 @@ h1 {
 
 .container {
     display: flex;
-    background-color: #08ef00;
+    background-color: #ffffff;
     border: 3px solid #000000;
     border-radius: 20px;
-    margin-top: 20px;
-
+    margin-top: 5%;
     height: auto;
     width: 88%;
     margin-left: 6%;
+    box-shadow: 0 0 15px black;
 }
 
 hr {
@@ -66,7 +71,7 @@ hr {
     border: none;
     border-radius: 10px;
     padding: 17px 25px;
-    margin-top: 10px;
+    margin-top: 20%;
     width: 100%;
 }
 
@@ -185,6 +190,14 @@ hr {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.youtube,
+.facebook,
+.instagram,
+.tiktok,
+.soundcloud {
+    padding-bottom: 7%;
+}
+
 
 .YOUTUBE,
 .FACEBOOK,
@@ -198,7 +211,7 @@ hr {
 .FACEBOOK,
 .TIKTOK,
 .SOUNDCLOUD {
-    margin-top: 13.5%;
+    margin-top: 25%;
 }
 
 .container .facebook,
@@ -377,13 +390,13 @@ p {
 /* COPYRIGHT */
 #footer {
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 12%;
     text-align: center;
-    margin-bottom: 0%;
     color: #fff;
     font-size: 17px;
     background-color: #3a3a3a;
     padding: 15px;
+    flex-shrink: 0;
+    margin-top: auto;
 }
 
 #footer a {
